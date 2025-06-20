@@ -1,4 +1,6 @@
-# 🚀 AutoSAM — Steam Achievement Automator
+# <p align="center">
+  <h1>AutoSAM — Steam Achievement Automator</h1>
+</p AutoSAM — Steam Achievement Automator
 
 <p align="center">
   <img src="assets/auto.gif" alt="AutoSAM demo GIF" />
