@@ -1,6 +1,6 @@
 # 🚀 AutoSAM
 
-![Build Status](https://github.com/olucasmf/AutoSAM/actions/workflows/build-dotnet.yml/badge.svg)
+
 
 <p align="center">
   <img src="assets/auto.gif" alt="Demonstração do AutoSAM" />
