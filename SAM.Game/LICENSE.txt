@@ -20,3 +20,6 @@ freely, subject to the following restrictions:
 
 3. This notice may not be removed or altered from any source
    distribution.
+
+Modificações e melhorias nesta versão por: https://github.com/olucasmf (PT-BR)
+Modifications and improvements in this version by: https://github.com/olucasmf (EN)

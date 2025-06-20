@@ -91,3 +91,9 @@ Abra uma issue ou envie um pull request — sua participação é fundamental pa
 ---
 
 Desenvolvido por um entusiasta da comunidade Steam, com foco em qualidade, transparência e respeito ao usuário.
+
+---
+
+## 🏆 Modified Version Credits
+
+This version of AutoSAM was modified, improved and maintained by [olucasmf](https://github.com/olucasmf).

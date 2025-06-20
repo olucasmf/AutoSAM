@@ -20,6 +20,11 @@
  *    distribution.
  */
 
+/*
+ * Modificações e melhorias por: https://github.com/olucasmf (PT-BR)
+ * Modifications and improvements by: https://github.com/olucasmf (EN)
+ */
+
 using System;
 using System.Diagnostics;
 using System.IO;
