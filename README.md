@@ -1,5 +1,9 @@
 # 🚀 AutoSAM
 
+<p align="center">
+  <img src="assets/auto.gif" alt="Demonstração do AutoSAM" />
+</p>
+
 Gerencie e desbloqueie conquistas da Steam com eficiência, praticidade e total segurança. O AutoSAM é uma evolução do clássico Steam Achievement Manager, trazendo uma experiência aprimorada, recursos inéditos e um controle refinado para usuários exigentes.
 
 ---
