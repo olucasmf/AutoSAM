@@ -1,10 +1,10 @@
-<p align="center">
-  <h1>AutoSAM — Steam Achievement Automator</h1>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="assets/auto.gif" alt="AutoSAM demo GIF" />
-</p>
+#   AutoSAM — Steam Achievement Automator
+
+<img src="assets/auto.gif" alt="AutoSAM demo GIF" />
+
+</div>
 
 <p align="center">
   <a href="https://github.com/olucasmf/AutoSAM/releases">
