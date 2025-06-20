@@ -4,6 +4,20 @@
   <img src="assets/auto.gif" alt="AutoSAM demo GIF" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/olucasmf/AutoSAM/releases">
+    <img src="https://img.shields.io/github/v/release/olucasmf/AutoSAM?label=release&logo=github&style=for-the-badge" alt="Latest Release" />
+  </a>
+  <a href="https://github.com/olucasmf/AutoSAM/issues">
+    <img src="https://img.shields.io/github/issues/olucasmf/AutoSAM?style=for-the-badge&logo=github" alt="Issues" />
+  </a>
+  <a href="https://github.com/olucasmf/AutoSAM/blob/main/LICENSE.txt">
+    <img src="https://img.shields.io/github/license/olucasmf/AutoSAM?style=for-the-badge" alt="License" />
+  </a>
+  <img src="https://img.shields.io/badge/Built%20With-C%23-178600?style=for-the-badge&logo=csharp&logoColor=white" alt="Built with C#" />
+  <img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows&logoColor=white" alt="Platform" />
+</p>
+
 **AutoSAM is a modern, secure, and customizable automation tool for managing Steam achievements.**  
 Designed as a robust upgrade to the original Steam Achievement Manager (SAM), AutoSAM brings enhanced features, improved performance, and complete transparency.
 
