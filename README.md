@@ -1,140 +1,116 @@
 # 🚀 AutoSAM — Steam Achievement Automator
 
 <p align="center">
-  <img src="assets/auto.gif" alt="Demonstração do AutoSAM" />
+  <img src="assets/auto.gif" alt="AutoSAM demo GIF" />
 </p>
 
-**🇧🇷 Gerencie e desbloqueie conquistas da Steam de forma automatizada, segura e personalizável.**  
-**🇺🇸 Manage and unlock Steam achievements automatically, safely, and with full customization.**
-
-AutoSAM é uma versão aprimorada e automatizada do clássico Steam Achievement Manager (SAM), com recursos inéditos, melhor desempenho e mais controle para o usuário.  
-AutoSAM is an improved, automated version of the classic Steam Achievement Manager (SAM), with new features, better performance, and more control for the user.
+**AutoSAM is a modern, secure, and customizable automation tool for managing Steam achievements.**  
+Designed as a robust upgrade to the original Steam Achievement Manager (SAM), AutoSAM brings enhanced features, improved performance, and complete transparency.
 
 ---
 
-## ✨ Destaques / Highlights
+## ✨ Features
 
-| 🇧🇷                                                                                      | 🇺🇸                                                                                   |
-|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| 🟩 **Barra de Progresso Dinâmica**<br>Acompanhe o progresso de desbloqueio em tempo real. | 🟩 **Dynamic Progress Bar**<br>Track achievement progress live with visual feedback.   |
-| ⏱️ **Timer Inteligente**<br>Intervalo configurável entre desbloqueios.                   | ⏱️ **Smart Timer**<br>Custom intervals between unlocks.                                |
-| 🔄 **Desbloqueio Automático**<br>Controle completo: iniciar, parar e monitorar.          | 🔄 **Auto Unlock**<br>Full control: start, stop and monitor the process.               |
-| 🖱️ **Drag and Drop**<br>Personalize a ordem das conquistas.                             | 🖱️ **Drag and Drop**<br>Customize the unlock order easily.                            |
-| 🌐 **Pronto para multi-idiomas**<br>Estrutura preparada para traduções.                  | 🌐 **Multilanguage-ready**<br>Structure ready for translation.                         |
-| 🔒 **Seguro e offline**<br>Não acessa a internet, não coleta dados.                      | 🔒 **Secure and offline**<br>No internet access, no data collection.                   |
-| 🐞 **Correções e Estabilidade**<br>Falhas corrigidas, mais robustez.                     | 🐞 **Bug Fixes & Stability**<br>Improved robustness and UI fixes.                      |
-| 🧩 **Arquitetura Modular**<br>Facilita manutenção e melhorias futuras.                   | 🧩 **Modular Architecture**<br>Easy to maintain and extend.                            |
+- ✅ **Secure & Offline** — No internet access, no telemetry, and no data collection.
+- 🧠 **Smart Timer** — Set custom intervals between unlocks to mimic natural behavior.
+- 📊 **Dynamic Progress Bar** — Track your unlocking progress in real time.
+- 🖱️ **Drag & Drop Interface** — Easily reorder achievement unlock sequences.
+- 🧩 **Modular Architecture** — Clean, scalable codebase for easier maintenance and contributions.
+- 🛡️ **Open Source** — Fully auditable code, free from obfuscation or hidden behavior.
+- 🌐 **Localization-Ready** — Built with internationalization in mind.
+- 🐞 **Improved Stability** — Bug fixes and interface enhancements over the original SAM.
 
 ---
 
-## 🚀 Guia Rápido / Quick Start
+## 🚀 Quick Start
 
-1. 🇧🇷 Selecione as conquistas desejadas.  
-   🇺🇸 Select the achievements you want.
+1. Download the latest release from the [Releases page](https://github.com/olucasmf/AutoSAM/releases) or the `upload` folder.
+2. Extract the contents of the `.zip` file.
+3. **Launch the official Steam desktop client** (not the browser version).
+4. Make sure your game library is fully loaded.
+5. Run `AutoSAM.Game.exe` to start the application.
+6. *(Optional)* Use `AutoSAM.Picker.exe` to select a specific game.
 
-2. 🇧🇷 Reordene com drag and drop.  
-   🇺🇸 Reorder them via drag and drop.
-
-3. 🇧🇷 Configure o tempo entre desbloqueios.  
-   🇺🇸 Set your preferred interval.
-
-4. 🇧🇷 Ative o Auto Unlock e acompanhe o progresso.  
-   🇺🇸 Activate Auto Unlock and watch it work.
-
-5. 🇧🇷 Mude de abas livremente — a lista se sincroniza automaticamente.  
-   🇺🇸 Switch tabs freely — the list stays updated.
+> ⚠️ **Important:** AutoSAM requires the official **Steam desktop client** to be running with your **library loaded**. The web client is not supported.
 
 ---
 
-## 🖥️ Instalação / Installation
+## 🖥️ Installation Notes
 
-**🇧🇷**
+AutoSAM is a portable application. No installation required. Simply extract and run.
 
-1. Baixe o AutoSAM da [aba de releases](https://github.com/olucasmf/AutoSAM/releases) ou da pasta `upload`.
-2. Extraia o conteúdo.
-3. Execute `AutoSAM.Game.exe`.
-4. (Opcional) Use `AutoSAM.Picker.exe` para selecionar o jogo.
-5. **⚠️ Importante:** Certifique-se de que o **cliente Steam local** esteja aberto (não o navegador) e sua **biblioteca de jogos carregada** antes de iniciar o AutoSAM.
-
-**🇺🇸**
-
-1. Download AutoSAM from the [releases tab](https://github.com/olucasmf/AutoSAM/releases) or `upload` folder.
-2. Extract the contents.
-3. Run `AutoSAM.Game.exe`.
-4. (Optional) Use `AutoSAM.Picker.exe` to choose a game.
-5. **⚠️ Important:** Make sure the **local Steam client** is running (not the web version), and your **game library is loaded** before starting AutoSAM.
-
-> ⚠️ **Use AutoSAM com responsabilidade. O uso incorreto pode afetar sua conta ou experiência na Steam.**  
-> ⚠️ **Use AutoSAM responsibly. Improper use may affect your Steam stats or experience.**
+> ❗ If your antivirus flags the app, this is a **false positive** due to the use of unmanaged code interacting with Steam processes. See the [Antivirus Notice](#-antivirus-notice) below.
 
 ---
 
-## 🛠️ Tecnologias / Technologies
+## 🔐 Security & Trust
+
+AutoSAM was built with transparency and user safety as top priorities:
+
+- 🔓 100% Open Source
+- 📡 Zero Internet Access
+- 🧾 No Logging or Tracking
+- ⚙️ No Runtime Modifications to Steam
+
+You are encouraged to review the source code and compile your own binaries for maximum trust.
+
+---
+
+## 🛠️ Technologies Used
 
 - C# (.NET Framework)
-- WinForms
+- Windows Forms (WinForms)
 - Steamworks API
+- Custom memory reading/writing modules
 
 ---
 
-## 🛡️ Segurança e Transparência / Security & Trust
+## 🧪 Antivirus Notice
 
-AutoSAM é totalmente offline, não coleta dados e é de código aberto. Pode gerar alertas falsos positivos por interagir com processos da Steam, mas:
+When running `AutoSAM.Game.exe` or extracting the `.zip`, your antivirus or Windows Defender may issue a warning.
 
-✅ Código-fonte auditável  
-✅ Sem acesso à internet  
-✅ Sem coleta de dados  
-✅ Sem obfuscação
+This is expected and is caused by:
 
-AutoSAM is fully offline, collects no data, and is open-source. It may trigger false positives due to Steam interaction, but:
+- The application being **unsigned**.
+- Direct interaction with external processes (Steam).
+- Inclusion of custom memory utilities.
 
-✅ Auditable source code  
-✅ No internet access  
-✅ No data collection  
-✅ No obfuscation
-
-> 📖 Consulte a [documentação sobre segurança e antivírus](#-antivirus-warning--aviso-sobre-antivírus) para mais detalhes.  
-> 📖 See the [Security and Antivirus Warning](#-antivirus-warning--aviso-sobre-antivírus) section for more details.
+> ✅ **AutoSAM does not contain malware, does not access the internet, and does not modify your system.**  
+> You can compile the application from source if you prefer full control.
 
 ---
 
-## ⚠️ Antivirus Warning / ⚠️ Aviso sobre Antivírus
+## 📜 License
 
-**EN:**  
-When running `AutoSAM.zip`, Windows Defender or another antivirus may warn you. This is a **false positive** due to the app being unsigned and interacting with other processes.
-
-**PT-BR:**  
-Ao executar o `AutoSAM.zip`, o Windows Defender ou outro antivírus pode exibir um alerta. Isso é um **falso positivo**, pois o app não possui assinatura digital e interage com processos.
-
-> 🔓 AutoSAM é seguro, offline, e o código é aberto para verificação.  
-> 🔓 AutoSAM is safe, offline, and open-source for verification.
+AutoSAM is released under the same license as the original [Steam Achievement Manager](https://github.com/gibbed/SteamAchievementManager).  
+See `LICENSE.txt` for full details.
 
 ---
 
-## 📄 Licença / License
+## 🙏 Credits
 
-Distribuído sob a mesma licença do projeto original SAM.  
-Licensed under the original Steam Achievement Manager license.  
-Veja `LICENSE.txt` / See `LICENSE.txt` for details.
-
----
-
-## 🙏 Agradecimentos / Credits
-
-- 🎮 Projeto original: [Steam Achievement Manager (by gibbed)](https://github.com/gibbed/SteamAchievementManager)
-- 👥 Comunidade de usuários e desenvolvedores pelos feedbacks valiosos.
+- 🧩 Original Project: [Steam Achievement Manager by gibbed](https://github.com/gibbed/SteamAchievementManager)
+- 👨‍💻 This version: Modified and maintained by [olucasmf](https://github.com/olucasmf)
+- 👥 Thanks to the community for feedback, testing, and support
 
 ---
 
-## 🤝 Contribua / Contribute
+## 🤝 Contributing
 
-🇧🇷 Envie sugestões, bugs ou melhorias via issue ou pull request.  
-🇺🇸 Suggest features, report bugs, or contribute via issue or pull request.
+We welcome pull requests, feature suggestions, and issue reports!
+
+If you’d like to contribute:
+
+1. Fork the repository
+2. Create a feature branch
+3. Submit a Pull Request with a clear description
+
+> For major changes, please open an issue first to discuss what you’d like to change.
 
 ---
 
-## 🏆 Modified Version Credits
+## 📬 Contact
 
-This version of AutoSAM was modified, improved and maintained by [olucasmf](https://github.com/olucasmf).
+For issues, suggestions, or collaboration, open a GitHub [Issue](https://github.com/olucasmf/AutoSAM/issues) or reach out via the repository.
 
 ---
