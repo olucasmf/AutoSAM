@@ -98,7 +98,7 @@ This is expected and is caused by:
 
 ## 📜 License
 
-AutoSAM is released under the same license as the original [Steam Achievement Manager](https://github.com/gibbed/SteamAchievementManager).  
+This project is licensed under the terms specified in the `LICENSE.txt` file.  
 See `LICENSE.txt` for full details.
 
 ---
